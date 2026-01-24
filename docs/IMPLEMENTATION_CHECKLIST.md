@@ -73,5 +73,5 @@
 - [ ] Деплой `web` на Vercel + env
 
 ## 10) CI/CD и качество
-- [ ] CI: lint → unit tests → e2e tests
-- [ ] Блокировать merge/deploy при падении тестов
+- [x] CI: lint → unit tests → e2e tests
+- [x] Блокировать merge/deploy при падении тестов

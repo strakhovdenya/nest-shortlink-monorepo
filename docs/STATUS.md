@@ -4,6 +4,8 @@
 - [x] Базовый каркас API (ConfigModule, ValidationPipe, /health, Swagger)
 - [x] Smoke unit + e2e тесты
 - [x] Vercel проекты созданы и привязаны (api/web)
+- [x] CI workflow (lint → unit → e2e)
+- [x] Branch protection включен (required checks)
 
 ## Следующие задачи
 - [ ] Настроить тестовую БД и окружение для Jest (этап 1)
