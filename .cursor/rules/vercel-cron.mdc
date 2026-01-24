@@ -1,0 +1,13 @@
+---
+description: "Vercel: serverless ограничения, cron endpoints, секреты, идемпотентность"
+globs: ["vercel.json","apps/**/vercel.json","apps/api/**"]
+---
+
+## Vercel / Serverless
+- API запускается как serverless function: избегай тяжёлых зависимостей и долгих вычислений.
+- Не используй WebSocket как основу архитектуры.
+
+## Cron
+- Cron в Vercel = HTTP вызов эндпоинта по расписанию.
+- Cron эндпоинты защищай через Authorization Bearer CRON_SECRET.
+- Cron может запускаться параллельно или повторно — делай lock (Redis) + идемпотентность.

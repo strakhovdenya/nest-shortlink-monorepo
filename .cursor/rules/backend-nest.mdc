@@ -1,0 +1,15 @@
+---
+description: "Backend (Nest.js): структура, DI, DTO, ошибки, тесты"
+globs: ["apps/api/**"]
+---
+
+## Nest.js конвенции
+- Держи структуру модульной: Module + Controller + Service (+ при необходимости Repository/Adapter).
+- Бизнес-логика в сервисах, контроллеры — тонкие.
+- Входные данные только через DTO + ValidationPipe.
+- Возвращай предсказуемые ошибки через HttpException/ExceptionFilter, не через console.log.
+- Конфиг и секреты только через ConfigModule/env.
+
+## Качество
+- Каждый новый сервис/сложная логика: unit-тесты Jest.
+- Основные пользовательские сценарии: e2e-тесты.

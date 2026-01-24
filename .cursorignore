@@ -1,0 +1,16 @@
+# Dependencies / builds
+node_modules/
+dist/
+.next/
+out/
+coverage/
+
+# Logs / caches
+*.log
+.tmp/
+.cache/
+*.tsbuildinfo
+
+# Env / secrets (keep out of AI context)
+.env
+.env.*

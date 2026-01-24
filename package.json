@@ -1,0 +1,14 @@
+{
+  "name": "nest-test",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "npm --workspace apps/api run lint",
+    "start:dev": "npm --workspace apps/api run start:dev",
+    "test": "npm --workspace apps/api test",
+    "test:e2e": "npm --workspace apps/api run test:e2e"
+  }
+}
