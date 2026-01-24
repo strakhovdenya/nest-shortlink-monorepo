@@ -2,7 +2,7 @@
 
 ## 0) Подготовка репо и Vercel
 - [x] Создать монорепо структуру: `apps/api`, `apps/web` (позже), `docs`, `.cursor`
-- [ ] Подключить репо к Vercel (проекты `api` и `web` или сначала только `api`)
+- [x] Подключить репо к Vercel (проекты `api` и `web` или сначала только `api`)
 - [ ] Подключить Supabase (интеграция или env вручную)
 - [ ] Подтянуть env локально: `npx vercel env pull` → `.env.local`
 - [ ] Добавить env: `JWT_SECRET`, `CRON_SECRET` (+ Redis env при необходимости)

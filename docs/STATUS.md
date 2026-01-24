@@ -3,6 +3,7 @@
 ## Сейчас в работе
 - [x] Базовый каркас API (ConfigModule, ValidationPipe, /health, Swagger)
 - [x] Smoke unit + e2e тесты
+- [x] Vercel проекты созданы и привязаны (api/web)
 
 ## Следующие задачи
 - [ ] Настроить тестовую БД и окружение для Jest (этап 1)

@@ -1,5 +1,6 @@
 node_modules
-.env*, 
-.npm-cache, 
-dist, 
+.env*
+.npm-cache
+dist
 coverage
+.vercel
