@@ -74,4 +74,4 @@
 
 ## 10) CI/CD и качество
 - [x] CI: lint → unit tests → e2e tests
-- [ ] Блокировать merge/deploy при падении тестов
+- [x] Блокировать merge/deploy при падении тестов
