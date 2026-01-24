@@ -6,6 +6,7 @@
 - [x] Vercel проекты созданы и привязаны (api/web)
 - [x] CI workflow (lint → unit → e2e)
 - [x] Branch protection включен (required checks)
+- [x] Vercel serverless entrypoint для Nest API
 
 ## Следующие задачи
 - [ ] Настроить тестовую БД и окружение для Jest (этап 1)
