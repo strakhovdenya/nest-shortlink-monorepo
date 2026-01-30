@@ -8,9 +8,9 @@
 - [ ] Добавить env: `JWT_SECRET`, `CRON_SECRET` (+ Redis env при необходимости)
 
 ## 1) Тестовая база и тестовое окружение (Jest)
-- [ ] Завести отдельную test БД/схему в Supabase
-- [ ] Создать `.env.test` (или конфиг CI) для тестов
-- [ ] Проверить Jest конфиги: unit и e2e
+- [x] Завести отдельную test БД/схему в Supabase
+- [x] Создать `.env.test` (или конфиг CI) для тестов
+- [x] Проверить Jest конфиги: unit и e2e
 - [ ] Стратегия:
   - [ ] unit: мок Prisma/Redis
   - [ ] e2e: реальная test БД + миграции
@@ -18,7 +18,7 @@
 ## 2) Supabase + Prisma
 - [x] Подключить Prisma в `apps/api`
 - [x] Описать модели: User, Link, (ClickEvent и/или агрегаты)
-- [ ] Создать и применить миграции (dev + test)
+- [x] Создать и применить миграции (dev + test)
 - [x] Сделать `PrismaService` (singleton)
 
 ## 3) Каркас Nest “как надо”
