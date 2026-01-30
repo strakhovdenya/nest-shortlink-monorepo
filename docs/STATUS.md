@@ -7,10 +7,12 @@
 - [x] CI workflow (lint → unit → e2e)
 - [x] Branch protection включен (required checks)
 - [x] Vercel serverless entrypoint для Nest API
+- [x] Подключен Prisma (schema + PrismaService)
+- [x] Настроен DATABASE_URL для Supabase (локально)
 
 ## Следующие задачи
 - [ ] Настроить тестовую БД и окружение для Jest (этап 1)
-- [ ] Подключить Prisma/Supabase (этап 2)
+- [ ] Применить миграции Prisma (dev + test)
 - [ ] Добавить Exception Filter и Interceptor (этап 3)
 
 ## Заметки/решения

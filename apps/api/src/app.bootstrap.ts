@@ -20,8 +20,7 @@ export async function createApp() {
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, document, {
-    customCssUrl:
-      'https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui.css',
+    customCssUrl: 'https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui.css',
     customJs: [
       'https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui-bundle.js',
       'https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui-standalone-preset.js',
